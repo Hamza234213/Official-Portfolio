@@ -14,8 +14,21 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
-  <lin
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet" />
+
+  <!-- Responsive Top Margin Fix -->
+  <style>
+    #home {
+      position: relative;
+      top: 100px;
+    }
+
+    @media (max-width: 768px) {
+      #home {
+        top: 40px;
+      }
+    }
+  </style>
 </head>
 
 <body style="background-color: lightseagreen;">
@@ -44,7 +57,7 @@
   </header>
 
   <!-- Home Section -->
-  <div class="container my-5" style="position: relative; top: 100px;" id="home">
+  <div class="container my-5" id="home">
     <div class="row align-items-center">
       <div class="col-md-6 col-12 text-center text-md-start">
         <div class="form-group my-5">
@@ -81,12 +94,11 @@
   </div>
 
   <!-- Projects Section -->
-<!-- my projects start -->
-<section id="myprojects" style="margin-top: 100px;" class="py-5">
+  <section id="myprojects" style="margin-top: 100px;" class="py-5">
     <div class="container">
       <h1 style="font-family: TestFont;" class="text-center fw-bold my-2 display-3 animate__animated animate__fadeInDown">My Projects</h1>
       <div class="row justify-content-center mt-5 g-4">
-  
+
         <!-- Card 1 -->
         <div class="col-md-6 col-lg-4">
           <div class="card h-100 shadow project-card text-white">
@@ -96,7 +108,7 @@
             </div>
           </div>
         </div>
-  
+
         <!-- Card 2 -->
         <div class="col-md-6 col-lg-4">
           <div class="card h-100 shadow project-card text-white">
@@ -106,7 +118,7 @@
             </div>
           </div>
         </div>
-  
+
         <!-- Card 3 -->
         <div class="col-md-6 col-lg-4">
           <div class="card h-100 shadow project-card text-white">
@@ -116,17 +128,16 @@
             </div>
           </div>
         </div>
-  
+
       </div>
     </div>
   </section>
-  <!-- my projects end -->
-  
+
   <!-- Contact Section -->
   <section id="contact" class="py-5">
     <div class="container">
       <h1 style="font-family: TestFont;" class="text-center fw-bold display-3 mb-4">Contact Me</h1>
-  
+
       <!-- Contact Form -->
       <form id="commentForm" class="mx-auto" style="max-width: 600px;">
         <div class="mb-3 input-wrapper">
@@ -140,14 +151,15 @@
         </div>
         <button type="submit" class="cool-btn w-100">Send Message ✉️</button>
       </form>
-  
+
       <!-- Comment History -->
       <div id="commentHistory" class="mt-5" style="max-width: 800px; margin: auto;">
         <h3 style="font-family: TestFont;" class="text-white mb-4">💬 Comment History</h3>
         <ul class="list-group" id="commentList" style="background-color: transparent; border: none;"></ul>
       </div>
     </div>
-  </section>  
+  </section>
+
   <!-- Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
