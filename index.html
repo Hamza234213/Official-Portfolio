@@ -25,9 +25,24 @@
 
     @media (max-width: 768px) {
       #home {
-        top: 30px;
+        top: 40px;
       }
     }
+
+    .profile-img {
+  max-width: 300px;
+  margin-top: 50px;
+  border-radius: 50%;
+  border: 5px solid black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .profile-img {
+    margin-top: 20px;
+  }
+}
+
   </style>
 </head>
 
@@ -67,7 +82,7 @@
         </div>
       </div>
       <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
-        <img src="Images/Hamza.jpg" class="img-fluid" style="max-width: 300px; margin-top: 50px; border-radius: 50%; border: 5px solid black; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+        <img src="Images/Hamza.jpg" class="img-fluid profile-img">  
       </div>
     </div>
   </div>
