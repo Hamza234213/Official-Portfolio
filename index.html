@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="Description" content="Portfolio of Hamza Bilal" />
+  <title>Portfolio</title>
+
+  <!-- Styles & Fonts -->
+  <link rel="icon" href="images/logo.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <lin
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet" />
+</head>
+
+<body style="background-color: lightseagreen;">
+
+  <!-- Navbar -->
+  <header>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="index.html">
+          <img id="Logo" src="Images/Logo.png" width="150" style="margin-left: 50px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul id="navbaritems" class="navbar-nav fw-bold me-auto mx-5 mb-lg-3" style="margin-top: 10px;font-family: TestFont;">
+            <li class="nav-item nav-pills"><a class="nav-link custom-hover" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link custom-hover" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link custom-hover" href="#myprojects">My Projects</a></li>
+            <li class="nav-item"><a class="nav-link custom-hover" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home Section -->
+  <div class="container my-5" style="position: relative; top: 100px;" id="home">
+    <div class="row align-items-center">
+      <div class="col-md-6 col-12 text-center text-md-start">
+        <div class="form-group my-5">
+          <h4 class="display-6 animate__animated animate__fadeInDown animate__slower">Hello I'm</h4>
+          <h3 class="display-5 fw-bold animate__animated animate__fadeInDown animate__slower" style="font-family: TestFont;">Hamza Bilal</h3>
+          <h6 class="fs-2 display-6 animate__animated animate__fadeInDown animate__slower">Front-End Web Developer</h6>
+        </div>
+      </div>
+      <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
+        <img src="Images/Hamza.jpg" class="img-fluid" style="max-width: 300px; margin-top: 50px; border-radius: 50%; border: 5px solid black; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="container my-5" id="about" style="position: relative; top: 110px;">
+    <h4 class="text-center fw-bold my-2 display-3 animate__animated animate__fadeInDown animate__slower" style="font-family: TestFont;">About me</h4>
+    <p class="lead text-center animate__animated animate__fadeIn mt-4">I'm a young and passionate web developer skilled in HTML, CSS, and Bootstrap. I build responsive websites that are clean, fast, and user-friendly.</p>
+    <div class="row">
+      <div class="col-md-6 col-12 mt-3">
+        <p class="lead animate__animated animate__fadeIn" style="text-align: justify;">I have successfully completed a certified web development course from the renowned institute Aptech, where I gained hands-on experience with HTML, CSS, Bootstrap, and jQuery. With the skills I've acquired, I'm confident in my ability to build high-quality, responsive front-end websites.</p>
+      </div>
+      <div class="col-md-6 col-12 mt-4 mt-md-0 animate__animated animate__fadeIn">
+        <div class="p-3">
+          <h5 style="font-family: TestFont;" class="fw-bold">HTML 5</h5>
+          <div class="progress my-2"><div class="progress-bar bg-dark" style="width: 100%;">100%</div></div>
+          <h5 style="font-family: TestFont;" class="fw-bold mt-3">CSS 3</h5>
+          <div class="progress my-2"><div class="progress-bar bg-warning" style="width: 95%;">95%</div></div>
+          <h5 style="font-family: TestFont;" class="fw-bold mt-3">BOOTSTRAP 5</h5>
+          <div class="progress my-2"><div class="progress-bar bg-info" style="width: 95%;">95%</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Projects Section -->
+<!-- my projects start -->
+<section id="myprojects" style="margin-top: 100px;" class="py-5">
+    <div class="container">
+      <h1 style="font-family: TestFont;" class="text-center fw-bold my-2 display-3 animate__animated animate__fadeInDown">My Projects</h1>
+      <div class="row justify-content-center mt-5 g-4">
+  
+        <!-- Card 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow project-card text-white">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Portfolio Website</h5>
+              <p class="card-text">A sleek portfolio website showcasing skills, contact form, and responsive design using HTML, CSS, and Bootstrap.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow project-card text-white">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">To-Do App</h5>
+              <p class="card-text">A simple and clean to-do list app with real-time task updates using JavaScript and Firebase integration.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow project-card text-white">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Landing Page</h5>
+              <p class="card-text">Responsive business landing page with animations and custom forms built using Bootstrap and animate.css.</p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  <!-- my projects end -->
+  
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h1 style="font-family: TestFont;" class="text-center fw-bold display-3 mb-4">Contact Me</h1>
+  
+      <!-- Contact Form -->
+      <form id="commentForm" class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3 input-wrapper">
+          <input type="text" class="form-control input-styled" id="userName" placeholder="Your Name" required>
+        </div>
+        <div class="mb-3 input-wrapper">
+          <input type="email" class="form-control input-styled" id="userEmail" placeholder="Your Email" required>
+        </div>
+        <div class="mb-3 input-wrapper">
+          <textarea class="form-control input-styled" id="userMessage" rows="4" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="cool-btn w-100">Send Message ✉️</button>
+      </form>
+  
+      <!-- Comment History -->
+      <div id="commentHistory" class="mt-5" style="max-width: 800px; margin: auto;">
+        <h3 style="font-family: TestFont;" class="text-white mb-4">💬 Comment History</h3>
+        <ul class="list-group" id="commentList" style="background-color: transparent; border: none;"></ul>
+      </div>
+    </div>
+  </section>  
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
